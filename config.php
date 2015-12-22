@@ -8,7 +8,6 @@ if (!$link) {
        die('Could not connect: ' . mysql_error());
 }
 //if connection is successfuly you will see message bellow
-echo 'Connected successfully';
  
 mysql_close($link);
 ?>
