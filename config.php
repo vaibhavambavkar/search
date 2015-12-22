@@ -1,22 +1,14 @@
 <?php
+$link = mysql_connect('mysql77757-env-3332420.jelasticlw.com.br', 'root', '26dZNC81L7');
+$db="student";
+mysql_select_db($db);
+//if connection is not successful you will see text error
+if (!$link) {
 
-
-$host_name = "mysql77757-env-3332420.jelasticlw.com.br";
-$username = "root";          
-$password = "26dZNC81L7";          
-$database = "student"; 
-try 
-{
-
-$dbo = new PDO('mysql:host='.$host_name.';dbname='.$database, $username, $password);
-
-} 
-catch (PDOException $e) 
-
-{
-print "Error!: " . $e->getMessage() . "<br/>";
-die();
+       die('Could not connect: ' . mysql_error());
 }
-
-
+//if connection is successfuly you will see message bellow
+echo 'Connected successfully';
+ 
+mysql_close($link);
 ?>
