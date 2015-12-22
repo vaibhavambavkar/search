@@ -1,6 +1,6 @@
 <?Php
 
-require "https://github.com/vaibhavambavkar/search/blob/master/config.php";
+require "config.php";
 
 @$search_text=$_GET['txt'];
 
