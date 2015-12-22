@@ -4,7 +4,7 @@
 $host_name = "localhost";
 $database = "student"; 
 $username = "root";          
-$password = "mysql";          
+$password = "26dZNC81L7";          
 
 try 
 {
