@@ -4,7 +4,7 @@
 <title> keyword search in relational databases</title>
 <META NAME="DESCRIPTION" CONTENT=" ">
 <META NAME="KEYWORDS" CONTENT="">
-<link rel="stylesheet" href="https://github.com/vaibhavambavkar/search/blob/master/style.css" type="text/css">
+<link rel="stylesheet" href="style.css" type="text/css">
 <script type="text/javascript">
 
 function ajaxFunction(val)
