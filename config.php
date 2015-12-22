@@ -7,7 +7,7 @@ echo "<h2>MySQL Error!</h2>";
 }
  
 // Choose database:
-$db="file";
+$db="student";
 mysql_select_db($db);
 // table header output:
 echo "<table border=\"1\" width=\"100%\" bgcolor=\"#FFFFE1\">";
