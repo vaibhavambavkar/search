@@ -1,7 +1,7 @@
 <?php
 
 
-$host_name = "https://mysql77757-env-3332420.jelasticlw.com.br";
+$host_name = "mysql77757-env-3332420.jelasticlw.com";
 $username = "root";          
 $password = "26dZNC81L7";          
 $database = "student"; 
