@@ -140,7 +140,7 @@ if (!$link) {
 }
 //if connection is successfuly you will see message bellow
 echo 'Connected successfully';
- 
+ mysql_select_db('student');
 
 @$search_text=$_GET['txt'];
 
