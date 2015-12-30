@@ -129,17 +129,16 @@ border: 1px none #000000"></div>
 
 
 
-</body>
+
 
 
 <?php
 $link = mysql_connect('mysql77757-env-3332420.jelasticlw.com.br', 'root', '26dZNC81L7');
-//if connection is not successful you will see text error
-if (!$link) {
+
+if (!$link) 
+{
        die('Could not connect: ' . mysql_error());
 }
-//if connection is successfuly you will see message bellow
-echo 'Connected successfully';
  mysql_select_db('student');
 
 @$search_text=$_GET['txt'];
@@ -252,5 +251,6 @@ else{$startrecord="no";}
 $main = array('data'=>$result,'value'=>array("no_records"=>"$records_found","no_records2"=>"$records_found2","message"=>"$message","status1"=>"T","endrecord"=>"$end_record","limit"=>"$limit","end"=>"$end","startrecord"=>"$startrecord" ));
 echo json_encode($main);
 ?>
+</body>
 </head>
 </html>
