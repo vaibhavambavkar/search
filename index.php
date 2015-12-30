@@ -133,23 +133,16 @@ border: 1px none #000000"></div>
 
 </html>
 <?php
-$host_name = "mysql77757-env-3332420.jelasticlw.com.br";
-$database = "student"; 
-$username = "root";          
-$password = "26dZNC81L7";          
-
-try 
-{
-
-$dbo = new PDO('mysql:host='.$host_name.';dbname='.$database, $username, $password);
-
-} 
-catch (PDOException $e) 
-
-{
-print "Error!: " . $e->getMessage() . "<br/>";
-die();
+$link = mysql_connect('mysql77757-env-3332420.jelasticlw.com.br', 'root', '26dZNC81L7');
+//if connection is not successful you will see text error
+if (!$link) {
+       die('Could not connect: ' . mysql_error());
 }
+//if connection is successfuly you will see message bellow
+echo 'Connected successfully';
+ 
+mysql_close($link);
+
 @$search_text=$_GET['txt'];
 
 @$end_record=$_GET['endrecord'];
