@@ -139,7 +139,10 @@ if (!$link)
 {
        die('Could not connect: ' . mysql_error());
 }
- mysql_select_db('student');
+$db="student";
+mysql_select_db($db);
+
+$q = mysql_query ("SELECT * FROM paper;");
 
 @$search_text=$_GET['txt'];
 
