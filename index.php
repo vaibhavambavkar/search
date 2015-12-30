@@ -83,7 +83,7 @@ if(myarray.value.startrecord =="yes"){ document.getElementById("back").style.dis
       }
     }
 
-	var url="search-backend.php";
+	//var url="search-backend.php";
 var str=document.getElementById("keyword").value;
 var myendrecord=myForm.st.value;
 
