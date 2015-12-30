@@ -141,7 +141,6 @@ if (!$link) {
 //if connection is successfuly you will see message bellow
 echo 'Connected successfully';
  
-mysql_close($link);
 
 @$search_text=$_GET['txt'];
 
