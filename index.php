@@ -105,7 +105,7 @@ document.getElementById("msg").style.display='inline';
 </script>
 
 
-</head>
+
 
 <body>
 <div id=msg style="position:absolute; width:300px; height:25px; 
@@ -260,3 +260,4 @@ else{$startrecord="no";}
 $main = array('data'=>$result,'value'=>array("no_records"=>"$records_found","no_records2"=>"$records_found2","message"=>"$message","status1"=>"T","endrecord"=>"$end_record","limit"=>"$limit","end"=>"$end","startrecord"=>"$startrecord" ));
 echo json_encode($main);
 ?>
+</head>
