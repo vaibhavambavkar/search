@@ -131,7 +131,7 @@ border: 1px none #000000"></div>
 
 </body>
 
-</html>
+
 <?php
 $link = mysql_connect('mysql77757-env-3332420.jelasticlw.com.br', 'root', '26dZNC81L7');
 //if connection is not successful you will see text error
@@ -253,3 +253,4 @@ $main = array('data'=>$result,'value'=>array("no_records"=>"$records_found","no_
 echo json_encode($main);
 ?>
 </head>
+</html>
