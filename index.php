@@ -133,7 +133,7 @@ border: 1px none #000000"></div>
 
 
 <?php
-$link = mysql_connect('mysql77757-env-3332420.jelasticlw.com.br', 'root', '26dZNC81L7');
+$link = mysql_connect('mysql78241-env-6208380.jelasticlw.com.br', 'root', 'EIHdym01149');
 
 if (!$link) 
 {
@@ -142,7 +142,7 @@ if (!$link)
 $db="student";
 mysql_select_db($db);
 
-$q = mysql_query ("SELECT * FROM paper;");
+//$q = mysql_query ("SELECT * FROM paper;");
 
 @$search_text=$_GET['txt'];
 
